@@ -41,7 +41,7 @@ const Experience = ({ setSelectedProject, color }) => {
                             {job.responsibilities?.map((task, j) => (
                                 <Stagger index={j}>
                                 <Typography variant='subtitle2' key={j} style={{display:'flex', alignItems:'center', margin:'5px 0'}}>
-                                    <CheckIcon sx={{color:color}} />{task} {/* Dynamically displaying the tasks */}
+                                    <CheckIcon sx={{color:color, mr:1}} />{task} {/* Dynamically displaying the tasks */}
                                 </Typography>
                                 </Stagger>
                             ))}
