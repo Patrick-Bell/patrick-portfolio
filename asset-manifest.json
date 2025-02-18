@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/patrick-portfolio/static/css/main.48f931cd.css",
-    "main.js": "/patrick-portfolio/static/js/main.0c8f9f51.js",
+    "main.js": "/patrick-portfolio/static/js/main.5a26b44d.js",
     "static/js/488.1446b851.chunk.js": "/patrick-portfolio/static/js/488.1446b851.chunk.js",
     "static/media/cointology-hero.png": "/patrick-portfolio/static/media/cointology-hero.8ce8bd38a13223b09aa1.png",
     "static/media/cointology1.png": "/patrick-portfolio/static/media/cointology1.6736e3faf9c54dcf0f77.png",
@@ -63,7 +63,6 @@
     "static/media/project5.png": "/patrick-portfolio/static/media/project5.1d52e29c06edf2c36617.png",
     "static/media/project1.png": "/patrick-portfolio/static/media/project1.c779f76f2e4b2d0f174c.png",
     "static/media/patrick-bell-cv.pdf": "/patrick-portfolio/static/media/patrick-bell-cv.46457771f4d2c5dc20cb.pdf",
-    "static/media/P.png": "/patrick-portfolio/static/media/P.4945e778b56c9832ee1c.png",
     "static/media/newlogo.png": "/patrick-portfolio/static/media/newlogo.d0a33ee6f1687584ca8f.png",
     "static/media/copykit-qr.png": "/patrick-portfolio/static/media/copykit-qr.d8cefb108615b84603a1.png",
     "static/media/scanner-qr.png": "/patrick-portfolio/static/media/scanner-qr.4f71a7a44d2f0b8aefbe.png",
@@ -71,11 +70,11 @@
     "static/media/cart-qr.png": "/patrick-portfolio/static/media/cart-qr.33f5ea1094f373b183a2.png",
     "index.html": "/patrick-portfolio/index.html",
     "main.48f931cd.css.map": "/patrick-portfolio/static/css/main.48f931cd.css.map",
-    "main.0c8f9f51.js.map": "/patrick-portfolio/static/js/main.0c8f9f51.js.map",
+    "main.5a26b44d.js.map": "/patrick-portfolio/static/js/main.5a26b44d.js.map",
     "488.1446b851.chunk.js.map": "/patrick-portfolio/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48f931cd.css",
-    "static/js/main.0c8f9f51.js"
+    "static/js/main.5a26b44d.js"
   ]
 }
