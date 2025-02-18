@@ -4,19 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeContextProvider } from './components/context/ThemeContext';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ColorContextProvider } from './components/context/ColorContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <ThemeContextProvider>
       <ColorContextProvider>
     <App />
     </ColorContextProvider>
     </ThemeContextProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
