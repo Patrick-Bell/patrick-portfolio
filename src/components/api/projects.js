@@ -74,7 +74,8 @@ export const projects = [
               }
             ],
         updates: [
-            { name: "New Features", desc: "Implementing new features such as Time & Attendance Tracking, Hours Worked Calculations and more!" },
+            { name: "New Features", desc: "Implementing new features such as Time & Attendance Tracking, Hours Worked Calculations and more." },
+            { name: "Performance", desc: "Working on refactoring more areas of code to increase performance and speed as the data increases." },
         ],
         results: [
             { name: "Boosted Profits", desc: "Strategically placing high-performing workers in high-demand areas, resulting in improved sales." },

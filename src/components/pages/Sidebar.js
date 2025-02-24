@@ -64,7 +64,7 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
 <Box sx={{ display: smallerScreen ? (isSidebarOpen ? 'block' : 'none') : 'block' }}>
 
         <Divider sx={{my:3}} />
-                        <List>
+                        <List component={'a'} href='mailto:patrickbell1302@gmail.com' target='_blank' sx={{textDecoration:'none', color:'white', cursor:'pointer', "&:hover":{opacity:0.7}}}>
                           <FadeIn>
                             <ListItem sx={{ borderRadius: '10px', p: 0 }}>
                               <ListItemAvatar>

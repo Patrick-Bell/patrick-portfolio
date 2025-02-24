@@ -4,20 +4,20 @@ export const experience = [
         title: 'Full Stack Developer',
         name: 'Admin Dashboard',
         client: 'Bandstand Merchandise Services',
-        desc: 'Bandstand Merchandise Services is a dynamic and passionate team specializing in live event sales, providing top-notch concession services to the live entertainment industry. During my time on this project, I worked on centralizing data for West Ham United events, enabling more effective analysis of worker performance. My key contributions included:',
+        desc: 'Bandstand Merchandise Services is a dynamic and passionate team specializing in live event sales, providing concession services to the live entertainment industry. During my time on this project, I worked on centralizing data for West Ham United events, enabling more effective analysis of worker performance. My key contributions included:',
         responsibilities: [
             'Led the design, development, and maintenance of both front-end and back-end systems, ensuring seamless integration and a user-friendly experience.',
             'Implemented robust user authentication and authorization using JWT, enhancing security and user management.',
-            'Optimized application performance, reducing load times and improving overall system responsiveness.',
+            'Refactored code to optimized application performance, reducing load times and improving overall system responsiveness.',
             'Troubleshot and fixed critical bugs, ensuring high availability and smooth functionality throughout the project lifecycle.',
-            'Helped increase efficiency and profits within 4 weeks.'
+            'Conducted manual API testing using Postman and automated testing using BDD (RSpec).'
         ],
         tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL', 'ReactJS', 'Material UI'],
         website: 'https://cart-tracks.onrender.com/',
         code: 'https://github.com/Patrick-Bell/cart-tracks'
     },
     {
-        id: 3,
+        id: 2,
         title: 'Full Stack Developer',
         name: 'Fiortech',
         client: 'Fiortech Recruitment Group',

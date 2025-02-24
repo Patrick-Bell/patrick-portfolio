@@ -7,9 +7,10 @@ const FeedbackCard = ({ review, name, job, image }) => {
 
         <>
 
-        <Box sx={{boxShadow:2, p:2,}}>
+        <Box sx={{boxShadow:2, p:2, position:'relative'}}>
                 <Typography sx={{fontStyle:'italic', color:'grey'}} variant="subtitle2">{review}</Typography>
                 <Box>
+                  <Divider sx={{my:1}} />
           <Box sx={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
             <Box sx={{display:'flex', alignItems:'center'}}>
             <Typography variant="subtitle2" fontWeight="bold">{name}</Typography>
@@ -17,7 +18,7 @@ const FeedbackCard = ({ review, name, job, image }) => {
             <Typography variant="body2" color="grey">{job}</Typography>
             </Box>
             <Box>
-            <img style={{height:'35px'}} src={image} />
+            <img style={{height:'35px', position:'absolute', bottom:5, right:5}} src={image} />
             </Box>
           </Box>
             </Box>
