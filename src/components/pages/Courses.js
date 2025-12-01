@@ -15,7 +15,7 @@ const Courses = ({ color }) => {
 
             {courses.map((course, i) => (
         <Stagger index={i}>
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none' }}>
+        <Box color="text.secondary" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 1, textDecoration:'none' }}>
             <Typography variant="body2">{course.title}</Typography>
             <Box sx={{display:'flex', alignItems:'center'}}>
             <CheckIcon sx={{color: color}} fontSize="small" />

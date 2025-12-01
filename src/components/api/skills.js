@@ -25,6 +25,7 @@ export const frontendSkills = [
     { name: 'HTML', icon: <DiHtml5 />, desc: 'Markup Language', color: '#E34F26' },
     { name: 'CSS', icon: <DiCss3 />, desc: 'Styling Language', color: '#1572B6' },
     { name: 'JavaScript', icon: <DiJavascript1 />, desc: 'Programming Language', color: '#F7DF1E' },
+    { name: 'Tailwind CSS', icon: <RiTailwindCssFill />, desc: 'CSS Framework', color: '#38BDF8' },
     { name: 'Material UI', icon: <SiMui />, desc: 'UI Framework', color: '#007FFF' },
     { name: 'Bootstrap', icon: <FaBootstrap />, desc: 'CSS Framework', color: '#563D7C' },
 

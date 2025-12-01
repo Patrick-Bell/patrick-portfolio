@@ -5,6 +5,9 @@ import Image2 from '../assets/project2.png'
 import Image3 from '../assets/project3.png'
 import Image4 from '../assets/project4.png'
 import Image5 from '../assets/project5.png'
+import Image6 from '../assets/project6.png'
+import Image7 from '../assets/gridlock-hero.png'
+import Image8 from '../assets/paypulselogo.png'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
@@ -15,6 +18,9 @@ import cointologyQR from '../assets/cointology-qr.png'
 import cartQR from '../assets/cart-qr.png'
 import Stagger from '../animations/Stagger'
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import fiortechNewQR from '../assets/fiortech-new-qr.png'
+import { LuGrid2X2Plus } from "react-icons/lu";
+
 
 
 const ProjectDesc = ({ project, setSelectedProject, color }) => {
@@ -26,9 +32,12 @@ const ProjectDesc = ({ project, setSelectedProject, color }) => {
         switch (name) {
             case 'Admin Dashboard': return Image1;
             case 'CopyKit': return Image2;
-            case 'Fiortech': return Image3;
+            case 'Fiortech Recruitment Group': return Image3;
             case 'Cointology': return Image4
             case 'QRLite': return Image5;
+            case 'MinifigsMania': return Image6
+            case 'GridLock': return <LuGrid2X2Plus />;
+            case 'PayPulse': return Image8;
         }
     };
 
@@ -36,7 +45,7 @@ const ProjectDesc = ({ project, setSelectedProject, color }) => {
         switch (name) {
             case 'Admin Dashboard': return cartQR;
             case 'CopyKit': return copyKitQR;
-            case 'Fiortech': return fiorTechQR;
+            case 'Fiortech Recruitment Group': return fiortechNewQR;
             case 'QRLite': return scannerQR;
             case 'Cointology': return cointologyQR
         }

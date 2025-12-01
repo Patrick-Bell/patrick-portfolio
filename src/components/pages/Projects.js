@@ -5,6 +5,7 @@ import Image2 from '../assets/copykit-hero.png';
 import Image3 from '../assets/cart-heor.png';
 import Image4 from '../assets/cointology-hero.png';
 import Image5 from '../assets/qr-scanner-hero.png';
+import Image6 from '../assets/minifigsmania.png'
 import { useNavigate } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
@@ -16,12 +17,14 @@ const decideImage = (name) => {
       return Image3;
     case 'CopyKit':
       return Image2;
-    case 'Fiortech':
+    case 'Fiortech Recruitment Group':
       return Image1;
     case 'Cointology':
       return Image4;
     case 'QRLite':
       return Image5;
+    case 'MinifigsMania':
+      return Image6
     default:
       return '';
   }

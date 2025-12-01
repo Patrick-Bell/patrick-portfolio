@@ -5,7 +5,7 @@ const WaveAnimation = () => {
   return (
     <Typography
       variant="subtitle2"
-      sx={{ color: 'grey', display: 'inline-flex', alignItems: 'center' }}
+      sx={{ color: 'text.secondary', display: 'inline-flex', alignItems: 'center' }}
     >
       Hi
       <motion.span

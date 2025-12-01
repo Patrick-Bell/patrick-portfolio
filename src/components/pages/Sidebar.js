@@ -1,17 +1,14 @@
-import React, { act, useState } from 'react';
-import { Box, Avatar, Button, List, ListItem, ListItemIcon, ListItemText, Typography, Chip, Divider, ListItemAvatar, useMediaQuery, Tooltip, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from '@mui/material';
+import React, { useState } from 'react';
+import { Box, Avatar, Button, List, ListItem, ListItemText, Typography, Chip, Divider, ListItemAvatar, useMediaQuery, Tooltip, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import FadeIn from '../animations/FadeIn'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import ArticleIcon from '@mui/icons-material/Article';
 import DownloadIcon from '@mui/icons-material/Download';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
-import ColorLensIcon from '@mui/icons-material/ColorLens';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { actions } from '../api/actions';
 import Stagger from '../animations/Stagger';
 import CV from '../assets/cv/patrick-bell-cv.pdf'
+import Phone from '@mui/icons-material/Phone';
 
 
 function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
@@ -25,7 +22,6 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
   };
 
   const openCV = () => {
-    console.log('clicking download CV')
     window.open(CV, '_blank')
   }
 
@@ -80,6 +76,22 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
                           </FadeIn>
                           </List>
 
+                          <List sx={{cursor:'pointer', "&:hover":{opacity:0.7}}}>
+                            <FadeIn>
+                            <ListItem sx={{ borderRadius: '10px', p: 0 }}>
+                              <ListItemAvatar>
+                                <Avatar sx={{ borderRadius: '10px' }}>
+                                  <Phone sx={{color: color}} />
+                                </Avatar>
+                              </ListItemAvatar>
+                              <ListItemText
+                                primary={'PHONE'}
+                                secondary={'07710 279288'}
+                              />
+                            </ListItem>
+                            </FadeIn>
+                          </List>
+
                           <List onClick={() => openCV()} sx={{cursor:'pointer', "&:hover":{opacity:0.7}}}>
                             <FadeIn>
                             <ListItem sx={{ borderRadius: '10px', p: 0 }}>
@@ -106,7 +118,7 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
                               </ListItemAvatar>
                               <ListItemText
                                 primary={'LOCATION'}
-                                secondary={'UK, London'}
+                                secondary={'London, UK'}
                               />
                             </ListItem>
                             </FadeIn>
@@ -119,8 +131,8 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
                             <Stagger key={i} index={i}>
                               <Tooltip title={action.text} arrow placement='bottom'>
                             <Box component={'a'} href={action.link} target='_blank' sx={{color:'grey', cursor:'pointer', "&:hover": { color: color}}}
-                              onClick={(e) => handleActionClick(e, action)}
-                            >{action.icon}</Box>
+                              onClick={(e) => handleActionClick(e, action)}>
+                            {action.icon}</Box>
                             </Tooltip>
                             </Stagger>
                           ))}

@@ -34,7 +34,7 @@ const TextTransition = ({ jobs }) => {
   };
 
   return (
-    <Typography variant="subtitle2" sx={{ mt: 1, color:'grey' }}>
+    <Typography variant="subtitle2" sx={{ mt: 1, color:'text.secondary' }}>
       I'm a self-taught Junior{" "}
       <motion.span
         key={index} // This makes sure the animation works whenever the job title changes
@@ -46,7 +46,7 @@ const TextTransition = ({ jobs }) => {
       >
         <strong>{jobs[index]}</strong> {/* Use the correct job title */}
       </motion.span>{" "}
-      with a passion for building clean, user-friendly web applications. I’ve spent the last 16 months honing my skills in modern front-end frameworks, translating ideas into functional and visually appealing projects.
+      with a passion for building clean, user-friendly web applications. I’ve spent 18 months honing my skills in modern front-end frameworks, translating ideas into functional and visually appealing projects.
     </Typography>
   );
 };

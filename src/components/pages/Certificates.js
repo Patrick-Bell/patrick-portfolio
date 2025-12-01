@@ -8,7 +8,10 @@ import Image2 from '../assets/copykit-hero.png';
 import Image3 from '../assets/cart-heor.png';
 import Image4 from '../assets/cointology-hero.png';
 import Image5 from '../assets/qr-scanner-hero.png';
-import Image6 from '../assets/construction.png'
+import Image6 from '../assets/minifigsmania.png';
+import Image7 from '../assets/construction.png'
+import Image8 from '../assets/gridlock-hero.png'
+import Image9 from '../assets/project7.png'
 import { useNavigate } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
@@ -29,15 +32,20 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
         return Image3;
       case 'CopyKit':
         return Image2;
-      case 'Fiortech':
+      case 'Fiortech Recruitment Group':
         return Image1;
       case 'Cointology':
         return Image4;
       case 'QRLite':
         return Image5;
-      default:
-      case 'Coming Soon...':
+      case 'MinifigsMania':
         return Image6;
+      case 'GridLock':
+        return Image8;
+      case 'PayPulse':
+        return Image9
+      default:
+        return Image7
     }
   };
 
@@ -58,9 +66,9 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
 
         {/* Content */}
         <Box sx={{ mt: 3}}>
-        <Typography variant="subtitle2" sx={{mt:1, lineHeight:1.8, color:'grey'}}>
+        <Typography variant="subtitle2" color="text.secondary" sx={{mt:1, lineHeight:1.8, }}>
           I have built over <strong style={{color:color}}>50</strong> projects whilst learning to code and these can be found on my <span style={{cursor:'pointer', color:color}} onClick={() => handleGitHub()}><strong>GitHub</strong></span>. Here are my top
-          <strong style={{color:color}}> 5</strong> projects that are either (1) being actively used by companies/users or (2) closely mimic real-world applications. I have also included
+          <strong style={{color:color}}> 4</strong> projects that are either (1) being actively used by companies/users or (2) closely mimic real-world applications. I have also included
           a final project that is still in progress.
         </Typography>
 
@@ -93,6 +101,7 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
               </Typography>
               <Typography sx={{ fontSize: 12, marginTop: 1 }} color="text.secondary">
                 {project.desc.slice(0, 120)}...
+                <span onClick={() => setSelectedProject(project)} style={{marginLeft:'5px', color:color}}>read more</span>
               </Typography>
               <Divider sx={{ my: 1 }} />
 

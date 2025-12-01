@@ -32,12 +32,12 @@ const Experience = ({ setSelectedProject, color }) => {
 
                     {/* Job Description */}
                     <Box sx={{ mt: 1 }}>
-                        <Typography variant='subtitle2' sx={{ color: 'grey' }}>
+                        <Typography variant='subtitle2' color="text.secondary">
                             {job.desc} {/* Dynamically displaying the description */}
                         </Typography>
 
                         {/* Responsibilities List */}
-                        <Box component="ul" sx={{ paddingLeft: 4, color: 'grey', mt: 1 }}>
+                        <Box component="ul" color="text.secondary" sx={{ paddingLeft: 4, mt: 1 }}>
                             {job.responsibilities?.map((task, j) => (
                                 <Stagger index={j}>
                                 <Typography variant='subtitle2' key={j} style={{display:'flex', alignItems:'center', margin:'5px 0'}}>
@@ -48,7 +48,7 @@ const Experience = ({ setSelectedProject, color }) => {
                         </Box>
 
                         {/* Technologies */}
-                        <Typography variant='subtitle2' sx={{ color: 'grey' }}>
+                        <Typography variant='subtitle2' color="text.secondary">
                             Technologies: {job.tech.join(', ')} {/* Dynamically displaying technologies */}
                         </Typography>
 
