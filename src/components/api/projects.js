@@ -40,7 +40,7 @@ export const projects = [
             { name: 'GitHub', icon: <FaGithub />, desc: 'Code Repository', color: '#181717' },
             { name: 'Heroku', icon: <SiHeroku />, desc: 'Deployment', color: '#430098' },
         ],
-        desc: 'The Merchandise Admin Dashboard is a data-driven platform designed to streamline and centralise the monitoring of worker performance within the hospitality sector. Through comprehensive data tracking, the dashboard enables administrators to track key performance metrics, generate detailed reports, and make data-driven decisions to optimize workforce performance. The system focuses on providing an intuitive, user-friendly interface for team members to access and manage valuable information, ultimately improving operational efficiency. With powerful search features, managers have an abundance of value data readily available to them, whether its data on a specific person, or a previous game, managers van view detailed reports on their desktop and mobile devices. Actions that have resulted from the dashboard include a strategy change in placing high performing workers in high demand areas, ultimately increasing margins.',
+        desc: 'The Merchandise Admin Dashboard is a data-driven platform designed to streamline and centralise the monitoring of worker performance within the hospitality sector. Through comprehensive data tracking, the dashboard enables administrators to track key performance metrics, generate detailed reports, and make data-driven decisions to optimize workforce performance. The system focuses on providing an intuitive, user-friendly interface for team members to access and manage valuable information, ultimately improving operational efficiency. With powerful search features, managers have an abundance of value data readily available to them, whether its data on a specific person, or a previous game, managers can view detailed reports on their desktop and mobile devices. Actions that have resulted from the dashboard include a strategy change in placing high performing workers in high demand areas, ultimately increasing margins. The website is currently being worked on to include more reports.',
         features: [
             { name: 'Create, Edit & Delete Workers', desc: 'Manage workers within the system by creating, editing, and deleting their profiles.' },
             { name: 'Create, Edit & Delete Managers', desc: 'Allow the creation and management of Manager accounts to assign tasks and monitor worker performance.' },
@@ -92,15 +92,15 @@ export const projects = [
             { name: 'Theme', desc: 'Actively working on a dark mode for the application.' }
         ],
         results: [
-            { name: "Boosted Profits", desc: "Strategically placing high-performing workers in high-demand areas, resulting in improved sales." },
+            //{ name: "Boosted Profits", desc: "Strategically placing high-performing workers in high-demand areas, resulting in improved sales." },
             { name: "Improved Efficiency", desc: "An improvement in workers arriving on time to work, also increasing profits with more time to sell." },
             { name: "Centralised Platform", desc: "Managers and directors can now analyse large datasets and identify trends more efficiently, eliminating the need for searching through Excel spreadsheets." },
-            { name: 'Platform Integration', desc: "The platform has become a stable and essential tool for managing performance, with directors advocating for its consistent use and updates by managers." },
+            //{ name: 'Platform Integration', desc: "The platform has become a stable and essential tool for managing performance, with directors advocating for its consistent use and updates by managers." },
         ],
         timeLine: "March 2023 - July 2023",
         screenshots: true,
-        repoLink: "https://github.com/Patrick-Bell/cart-tracks", // Replace with your actual repo link
-        demoLink: "https://whu-tracker-8a7906f4de54.herokuapp.com", // Add a link to a live demo if available
+        repoLink: "https://github.com/Patrick-Bell/bandstand-portfolio", // Replace with your actual repo link
+        demoLink: "https://bandstand-construction.netlify.app/", // Add a link to a live demo if available
         feedback: [
             { name: 'Bruce', position: 'Director', review: 'The system works very well. It is extremely easy to use and I now have it used by other managers. It tracks all the data I need to make decisions.'}
         ],
@@ -151,13 +151,13 @@ export const projects = [
                 challenge: "Hosting on Heroku",
                 problem: "Hosting the Fiortech platform on Heroku was a bit challenging, especially configuring the production environment, ensuring the database was set up correctly, and troubleshooting errors relating to adding a custom domain. I encountered issues related to environment variables, and deploying without errors.",
                 howIOvercameIt: "I followed a step-by-step guide on deploying Ruby on Rails apps to Heroku. I had to ensure that Heroku was able to identify my app as a rails one, and then build the frontend from static files. I also used the Heroku CLI to add a custom domain and connect it to the correct DNS.",
-                outcome: "Successfully deployed Fiortech on Heroku, allowing for seamless hosting and scalability. With Heroku's continuous integration features, I could easily push updates, monitor app performance, and ensure that the application was up and running smoothly. Its custom domain increases credibility and professionalism."
+                outcome: "Deployed Fiortech on Heroku, allowing for seamless hosting and scalability. With Heroku's continuous integration features, I could easily push updates, monitor app performance, and ensure that the application was up and running smoothly. Its custom domain increases credibility and professionalism."
               },
               {
                 challenge: "Setting Up Cookies",
                 problem: "Implementing cookies for user authentication and session management was initially tricky, especially with managing cookies securely and ensuring that users remained logged in even after closing their browsers. Handling cookies securely and ensuring proper session expiration without causing bugs required some trial and error.",
                 howIOvercameIt: "I used the Devise gem for user authentication, which helped with managing cookies for user sessions. I configured cookie settings in the Rails app to make sure cookies were encrypted and set the proper expiration times. I also tested the login functionality thoroughly to ensure that cookies were being set correctly and users could access their dashboards and job application data securely.",
-                outcome: "Successfully implemented secure cookie-based authentication, enabling users to stay logged in and access the platform without issues. The feature was robust and enhanced security through encrypted cookies. This also allowed for a more seamless user experience, as users didn’t need to log in repeatedly while interacting with the platform. It also blocks users without tokens from viewing APIs."
+                outcome: "Implemented secure cookie-based authentication, enabling users to stay logged in and access the platform without issues. The feature was robust and enhanced security through encrypted cookies. This also allowed for a more seamless user experience, as users didn’t need to log in repeatedly while interacting with the platform. It also blocks users without tokens from viewing APIs."
               },
               {
                 challenge: "Requests Timing Out",
@@ -177,8 +177,8 @@ export const projects = [
         ],
         timeLine: "",
         screenshots: true,
-        repoLink: "https://github.com/Patrick-Bell/recruit",
-        demoLink: "https://www.fiortechgroup.com",
+        repoLink: "https://github.com/Patrick-Bell/fiortech-portfolio",
+        demoLink: "https://fiortech-construction.netlify.app/",
         feedback: [
             { name: 'Aaron', position: 'CEO/Founder', review: 'Patrick built the website very quickly and it is what I had envisioned for it. It works very well and has imcreased the amount of applicants I am connecting with daily.'}
         ],
@@ -456,7 +456,7 @@ export const projects = [
             {
                 challenge: "Secure User Roles",
                 problem: "Ensuring data access is different betweeen admins and users. For example, a user should have access to their own orders, where an admin should have access to all orders.",
-                howIOvercameIt: "I carefully created functions that get the current user and the role of the usrer. I then used before_actions to ensure I can identify the user and grant them access accordindly.",
+                howIOvercameIt: "I carefully created functions that get the current user and the role of the user. I then used before_actions to ensure I can identify the user and grant them access accordingly.",
                 outcome: "User access works seamlessly, allowing me to create additional admin accounts for family members to fulfil orders whilst I am away."
             },
             {
@@ -469,34 +469,15 @@ export const projects = [
         updates: [
             { name: 'PayPal Payments', desc: 'Allow users to checkout using PayPal.' },
             { name: 'Google Log in', desc: 'Allow users to sign in using their Google accounts.' },
-            { name: 'eBay Integration', desc: 'To implement a centralised inventory system across eBay and the website, ensuring consistent stock and prevent items purchased not being available.' }
+            //{ name: 'eBay Integration', desc: 'To implement a centralised inventory system across eBay and the website, ensuring consistent stock and prevent items purchased not being available.' }
         ],
         results: [
-            {
-                name: "Increased Sales",
-                desc: "Acheived an increase in sales, with the website now accounting for 15% of all sales."
-            }, 
-            {
-                name: "Increased Visibility",
-                desc: "Over 10 new users signed up since launch."
-            }, 
-            {
-                name: "Increased Reviews",
-                desc: "Received 10+ reviews on products."
-            }, 
-            {
-                name: "Increased Active Listings",
-                desc: "Scaled MinifigsMania to over 200 active listings."
-            }, 
-            {
-                name: "Revenue Growth",
-                desc: "On track to achieve £2,000 sales in the first year of operation."
-            }, 
-            {
-                name: "Knowledge Gain",
-                desc: "Learned the basics of Tailwind CSS and how to use it effectively."
-            }, 
-        ],
+            { name: "Increased Sales", desc: "Successfully made sales on the website." },
+            //{ name: "Increased Reviews", desc: "Received 10+ reviews on products." }, 
+            { name: "Increased Active Listings", desc: "Scaled MinifigsMania to over 100 active listings." }, 
+            //{ name: "Revenue Growth", desc: "On track to achieve £2,000 sales in the first year of operation."}, 
+            { name: "Knowledge Gain", desc: "Learned the basics of Tailwind CSS and how to use it effectively." }, 
+         ],
         timeLine: "March 2023 - July 2023",
         screenshots: false, // Add image URLs here if possible
         repoLink: "https://github.com/Patrick-Bell/cart-tracks", // Replace with your actual repo link

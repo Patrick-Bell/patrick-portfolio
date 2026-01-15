@@ -65,6 +65,7 @@ function Projects() {
 
               {/* Action Buttons */}
               <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 1 }}>
+
                 <Button
                   variant="outlined"
                   size="small"
@@ -73,6 +74,7 @@ function Projects() {
                 >
                   Read More
                 </Button>
+
                 <Button
                   variant="contained"
                   size="small"
@@ -81,6 +83,7 @@ function Projects() {
                 >
                   GitHub
                 </Button>
+
                 <Button
                   variant="contained"
                   size="small"
@@ -89,6 +92,7 @@ function Projects() {
                 >
                   Website
                 </Button>
+
               </Box>
             </CardContent>
           </CardActionArea>

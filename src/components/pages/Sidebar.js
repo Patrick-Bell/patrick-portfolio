@@ -7,7 +7,7 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { actions } from '../api/actions';
 import Stagger from '../animations/Stagger';
-import CV from '../assets/cv/patrick-bell-cv.pdf'
+import CV from '../assets/cv/cv.pdf'
 import Phone from '@mui/icons-material/Phone';
 
 

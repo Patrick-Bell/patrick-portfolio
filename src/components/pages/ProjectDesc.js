@@ -11,14 +11,9 @@ import Image8 from '../assets/paypulselogo.png'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
-import fiorTechQR from '../assets/fiortech-qr.png'
-import copyKitQR from '../assets/copykit-qr.png'
-import scannerQR from '../assets/scanner-qr.png'
-import cointologyQR from '../assets/cointology-qr.png'
-import cartQR from '../assets/cart-qr.png'
+
 import Stagger from '../animations/Stagger'
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-import fiortechNewQR from '../assets/fiortech-new-qr.png'
 import { LuGrid2X2Plus } from "react-icons/lu";
 
 
@@ -43,11 +38,11 @@ const ProjectDesc = ({ project, setSelectedProject, color }) => {
 
     const decideScanner = (name) => {
         switch (name) {
-            case 'Admin Dashboard': return cartQR;
-            case 'CopyKit': return copyKitQR;
-            case 'Fiortech Recruitment Group': return fiortechNewQR;
-            case 'QRLite': return scannerQR;
-            case 'Cointology': return cointologyQR
+            case 'Admin Dashboard': return '';
+            case 'CopyKit': return '';
+            case 'Fiortech Recruitment Group': return '';
+            case 'QRLite': return '';
+            case 'Cointology': return ''
         }
     };
 

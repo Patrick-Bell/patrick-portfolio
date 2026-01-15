@@ -85,7 +85,6 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
             borderRadius: '10px',
             boxShadow: 3,
             transition: 'transform 0.3s ease-in-out',
-            '&:hover': { transform: 'scale(1.05)', boxShadow: 6 },
             padding: 0,
           }}
         >
@@ -94,6 +93,7 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
               component="img"
               image={decideImage(project.name)}
               alt={project.name}
+              sx={{ height: 180, objectFit: 'cover' }}
             />
             <CardContent sx={{ padding: 2 }}>
               <Typography variant="h6" sx={{ fontWeight: 700, fontSize: 18 }}>
@@ -106,18 +106,24 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
               <Divider sx={{ my: 1 }} />
 
               {/* Action Buttons */}
-              <Box onClick={() => handleProjectClick(project)} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none', "&:hover": { color: color } }}>
+
+                    <Box onClick={() => handleProjectClick(project)} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none', "&:hover": { color: color } }}>
                         <Typography variant="body2">Read More</Typography>
                         <OpenInNewIcon fontSize="small" />
                     </Box>
+
                     <Box component={'a'} href={project.repoLink} target="_blank" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none', "&:hover": { color: color } }}>
                         <Typography variant="body2">GitHub Link</Typography>
                         <OpenInNewIcon fontSize="small" />
                     </Box>
-                    <Box component={'a'} href={project.demoLink} target="_blank" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none', "&:hover": { color: color } }}>
+
+                    {project.demoLink !== '' && (
+                      <Box component={'a'} href={project.demoLink} target="_blank" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'grey', mb: 1, textDecoration:'none', "&:hover": { color: color } }}>
                         <Typography variant="body2">Website Link</Typography>
                         <OpenInNewIcon fontSize="small" />
                     </Box>
+                    )}
+                    
               
             </CardContent>
           </CardActionArea>
