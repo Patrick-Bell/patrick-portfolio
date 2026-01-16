@@ -12,6 +12,14 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
 
+
+import minifigsQR from '../assets/qr-code/minifigsmania-qr.png'
+import fiortechQR from '../assets/qr-code/fiortech-qr.png'
+import bandstandQR from '../assets/qr-code/bandstand-qr.png'
+import copykitQR from '../assets/qr-code/copykit-qr.png'
+import paypulseQR from '../assets/qr-code/paypulse-qr.png'
+import gridQR from '../assets/qr-code/grid-qr.png'
+
 import Stagger from '../animations/Stagger'
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import { LuGrid2X2Plus } from "react-icons/lu";
@@ -38,11 +46,12 @@ const ProjectDesc = ({ project, setSelectedProject, color }) => {
 
     const decideScanner = (name) => {
         switch (name) {
-            case 'Admin Dashboard': return '';
-            case 'CopyKit': return '';
-            case 'Fiortech Recruitment Group': return '';
-            case 'QRLite': return '';
-            case 'Cointology': return ''
+            case 'Admin Dashboard': return bandstandQR;
+            case 'CopyKit': return copykitQR;
+            case 'Fiortech Recruitment Group': return fiortechQR;
+            case 'MinifigsMania': return minifigsQR;
+            case 'GridLock': return gridQR;
+            case 'PayPulse': return paypulseQR;
         }
     };
 

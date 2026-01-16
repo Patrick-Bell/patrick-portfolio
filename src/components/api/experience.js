@@ -55,8 +55,8 @@ export const experience = [
             "Scaled MinifigsMania from the ground up, building an inventory of 100+ products and receiving over 200 five-star reviews across all platforms."
         ],
         tech: ["Ruby", "Ruby on Rails", "PostgreSQL", "ReactJS", "Tailwind CSS"],
-        website: "https://recruit-app-0adc9fc2a238.herokuapp.com/",
-        code: "https://github.com/Patrick-Bell/recruit"
+        website: "https://minifigsmania.netlify.app/",
+        code: "https://github.com/Patrick-Bell/minifigsmania-portfolio"
     }, 
     {
         id: 6,
@@ -73,7 +73,7 @@ export const experience = [
             "Tracked over 75 shifts."
         ],
         tech: ["Ruby", "Ruby on Rails", "PostgreSQL", "ReactJS", "Tailwind CSS"],
-        website: "https://recruit-app-0adc9fc2a238.herokuapp.com/",
-        code: "https://github.com/Patrick-Bell/recruit"
+        website: "https://paypulse-finance.netlify.app/",
+        code: "https://github.com/Patrick-Bell/paypulse-portfolio"
     },
 ]

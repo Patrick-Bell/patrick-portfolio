@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <AppContent />
-      <SnowOverlay maxParticles={20} />
+      {/*<SnowOverlay maxParticles={20} /> */}
     </>
   );
 }

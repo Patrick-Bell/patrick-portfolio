@@ -480,8 +480,8 @@ export const projects = [
          ],
         timeLine: "March 2023 - July 2023",
         screenshots: false, // Add image URLs here if possible
-        repoLink: "https://github.com/Patrick-Bell/cart-tracks", // Replace with your actual repo link
-        demoLink: "https://cart-tracks.onrender.com/", // Add a link to a live demo if available
+        repoLink: "https://github.com/Patrick-Bell/minifigsmania-portfolio", // Replace with your actual repo link
+        demoLink: "https://minifigsmania.netlify.app/", // Add a link to a live demo if available
         feedback: [
         ],
         status: false,  
@@ -559,8 +559,8 @@ export const projects = [
         ],
         timeLine: "June 2025 - September 2025",
         screenshots: true, // Add image URLs here if possible
-        repoLink: "https://github.com/Patrick-Bell/cart-tracks", // Replace with your actual repo link
-        demoLink: "https://cart-tracks.onrender.com/", // Add a link to a live demo if available
+        repoLink: "https://github.com/Patrick-Bell/paypulse-portfolio", // Replace with your actual repo link
+        demoLink: "https://paypulse-finance.netlify.app/", // Add a link to a live demo if available
         feedback: [
         ],
         status: false,  
@@ -611,8 +611,8 @@ export const projects = [
         ],
         timeLine: "September 2025 - October 2025",
         screenshots: true, // Add image URLs here if possible
-        repoLink: "https://github.com/Patrick-Bell/cart-tracks", // Replace with your actual repo link
-        demoLink: "https://cart-tracks.onrender.com/", // Add a link to a live demo if available
+        repoLink: "https://github.com/Patrick-Bell/grid-flex", // Replace with your actual repo link
+        demoLink: "https://grids-lock.netlify.app/", // Add a link to a live demo if available
         feedback: [
         ],
         status: false,  
