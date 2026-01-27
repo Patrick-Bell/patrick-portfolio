@@ -8,6 +8,6 @@ export const actions = [
     { id: 1, icon: <EmailIcon />, link: 'mailto:patrickbell1302@gmail.com', text: 'Email' },
     { id: 2, icon: <LinkedInIcon />, link: 'https://www.linkedin.com/in/patrick-bell-1bb0a6216/', text: 'LinkedIn'},
     { id: 3, icon: <GitHubIcon />, link: 'https://github.com/Patrick-Bell', text: 'GitHub'},
-    { id: 4, icon: <ArticleIcon />, link: 'https://patrick-web-portfolio.netlify.app/static/media/cv.8e09792435a484b3721b.pdf', text: 'CV'},
+    { id: 4, icon: <ArticleIcon />, link: 'https://patrick-web-portfolio.netlify.app/static/media/cv.41deb67ff6334f7f4493.pdf', text: 'CV'},
     { id: 5, icon: <ColorLensIcon />, text: 'Change Color'},
 ]
