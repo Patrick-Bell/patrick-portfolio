@@ -68,7 +68,7 @@ const ProjectsPage = ({ setSelectedProject, color }) => {
         <Box sx={{ mt: 3}}>
         <Typography variant="subtitle2" color="text.secondary" sx={{mt:1, lineHeight:1.8, }}>
           I have built over <strong style={{color:color}}>50</strong> projects whilst learning to code and these can be found on my <span style={{cursor:'pointer', color:color}} onClick={() => handleGitHub()}><strong>GitHub</strong></span>. Here are my top
-          <strong style={{color:color}}> 4</strong> projects that are either (1) being actively used by companies/users or (2) closely mimic real-world applications. I have also included
+          <strong style={{color:color}}> 6</strong> projects that are either (1) being actively used by companies/users or (2) closely mimic real-world applications. I have also included
           a final project that is still in progress.
         </Typography>
 
