@@ -47,7 +47,7 @@ function Sidebar({ color, selectedColor, setSelectedColor, setColor }) {
       <Box onClick={() => handleSidebarToggle()} sx={{visibility: smallerScreen ? 'visible' : 'hidden', position: 'absolute', top:0, right:0, borderTopRightRadius:"20px", p:1, display:'flex', boxShadow:2, cursor:'pointer'}}><KeyboardArrowDownIcon /></Box>
 
       <Box sx={{mt:3, display:'flex', alignItems:'center', justifyContent:'center'}}>
-        <img style={{width:'150px', borderTopLeftRadius:'30px', borderBottomRightRadius:'30px'}} src='https://media.licdn.com/dms/image/v2/C4D03AQHKAyNsKGU8iA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1627382775345?e=1744848000&v=beta&t=6SmGqiwBEjrGbz6u83xe1e0CrEvCNGvwveJOaK3-_rU' />
+        <img style={{width:'150px', borderTopLeftRadius:'30px', borderBottomRightRadius:'30px'}} src='https://media.licdn.com/dms/image/v2/C4D03AQHKAyNsKGU8iA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1627382775345?e=1770854400&v=beta&t=R1xaTR5Eru_OQBU1OiKRh0HZXHGk45TOLTLjLj6lgKE' />
       </Box>
       <Box>
             <Typography sx={{textAlign:'center', marginTop:'25px', fontWeight:800, fontSize:'26px'}}>Patrick Bell</Typography>

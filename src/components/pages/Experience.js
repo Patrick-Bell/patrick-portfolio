@@ -10,7 +10,7 @@ import CheckIcon from '@mui/icons-material/Check';
 const Experience = ({ setSelectedProject, color }) => {
 
     const handleClick = (project) => {
-        const selectProject = projects.find(p => p.id === project.id)
+        const selectProject = projects.find(p => p.name === project.name)
         setSelectedProject(selectProject)
         window.scrollTo({top:0})
     }
